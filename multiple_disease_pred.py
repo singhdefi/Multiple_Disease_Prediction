@@ -61,20 +61,7 @@ if (selected == 'Diabetes Prediction'):
     with col2:
         Age = st.text_input('Age of the Person')
 
-    # Convert input values to float
-    age = float(age)
-    sex = float(sex)
-    cp = float(cp)
-    trestbps = float(trestbps)
-    chol = float(chol)
-    fbs = float(fbs)
-    restecg = float(restecg)
-    thalach = float(thalach)
-    exang = float(exang)
-    oldpeak = float(oldpeak)
-    slope = float(slope)
-    ca = float(ca)
-    thal = float(thal)
+   
     
     
     # code for Prediction
@@ -141,6 +128,21 @@ if (selected == 'Heart Disease Prediction'):
         
     with col1:
         thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
+
+     # Convert input values to float
+    age = float(age)
+    sex = float(sex)
+    cp = float(cp)
+    trestbps = float(trestbps)
+    chol = float(chol)
+    fbs = float(fbs)
+    restecg = float(restecg)
+    thalach = float(thalach)
+    exang = float(exang)
+    oldpeak = float(oldpeak)
+    slope = float(slope)
+    ca = float(ca)
+    thal = float(thal)
         
         
      
